@@ -1,5 +1,7 @@
 model2helicalpriors is a python script for generating helical priors that can be used in relion helical reconstruction. 
 
+
+
 See inital steps below.
 
 Step 1: Within the desired PEET alignment directory, run createAlignedModel to generate updated particle coordinates.
