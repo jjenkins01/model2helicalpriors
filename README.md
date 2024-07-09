@@ -1,3 +1,6 @@
+![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
+[![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41586--024--07680--x-blue)](https://doi.org/10.1038/s41586-024-07680-x)
+
 model2helicalpriors is a python script for generating helical priors that can be used in relion helical reconstruction. 
 
 The following helical priors will be written to a star file:
