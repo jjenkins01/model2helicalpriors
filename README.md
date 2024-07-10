@@ -16,8 +16,11 @@ The following helical priors will be written to a star file:
 
 Before running the script we need to perform some initial steps using commands in PEET and IMOD.
 
-(https://bio3d.colorado.edu/PEET/)
-(https://bio3d.colorado.edu/imod/)
+[https://bio3d.colorado.edu/PEET/]
+
+[https://bio3d.colorado.edu/imod/]
+
+[https://bio3d.colorado.edu/ftp/PEET/man/html/man1/createAlignedModel.1.html]
 
 Step 1: Within the desired PEET alignment directory, run createAlignedModel to generate updated particle coordinates.
 
