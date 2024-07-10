@@ -1,7 +1,7 @@
 ![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
 [![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41586--024--07680--x-blue)](https://doi.org/10.1038/s41586-024-07680-x)
-![IMOD](https://img.shields.io/badge/software-IMOD-ff69b4?logo=appveyor)](https://bio3d.colorado.edu/imod/)
-![PEET](https://img.shields.io/badge/software-PEET-4EAA25?logo=appveyor)](https://bio3d.colorado.edu/PEET/)
+![IMOD](https://img.shields.io/badge/software-IMOD-ff69b4?logo=appveyor)
+![PEET](https://img.shields.io/badge/software-PEET-4EAA25?logo=appveyor)
 
 
 model2helicalpriors is a python script for generating helical priors that can be used in relion helical reconstruction. 
@@ -14,7 +14,10 @@ The following helical priors will be written to a star file:
 4. rlnAnglePsiPrior #set to zero
 5. rlnAnglePsiFlipRatio #prior orientation knowledge, set to 0.5 to allow relion to refine.
 
-Before running the script we need to perform some initial steps.
+Before running the script we need to perform some initial steps using commands in PEET and IMOD.
+
+(https://bio3d.colorado.edu/PEET/)
+(https://bio3d.colorado.edu/imod/)
 
 Step 1: Within the desired PEET alignment directory, run createAlignedModel to generate updated particle coordinates.
 
